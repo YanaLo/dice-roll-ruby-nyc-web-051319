@@ -6,6 +6,6 @@ def roll
   # code goes here
  
 # rand (1...6)
-  rolls= Array(1..6) 
+  rolls= {rand(1..6)}
 puts "#{rolls}"
 end
