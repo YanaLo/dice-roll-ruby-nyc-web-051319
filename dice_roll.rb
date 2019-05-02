@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  roll.sample()
+  rand (1...6)
+  
 end
