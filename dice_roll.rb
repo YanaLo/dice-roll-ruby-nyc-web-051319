@@ -5,7 +5,7 @@
 def roll
   # code goes here
   
-  puts rand (1...6)
+ rand (1...6)
  rolls= Array.new(6) {rand(1..6) }
- puts rolls
+ puts "#{rolls}""
 end
