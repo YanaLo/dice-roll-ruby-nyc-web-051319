@@ -7,5 +7,5 @@ def roll
   
  rand (1...6)
  rolls= Array(1..6) 
- puts "#{rolls}"
+# puts "#{rolls}"
 end
