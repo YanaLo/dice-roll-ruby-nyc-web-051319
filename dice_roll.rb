@@ -4,7 +4,7 @@
 
 def roll
   # code goes here
-  rolls= Array(1..6) 
+  rolls= Array.rand(1..6) 
 puts "#{rolls}" 
  rand (1...6)
 
