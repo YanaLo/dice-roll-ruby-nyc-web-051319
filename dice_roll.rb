@@ -6,5 +6,5 @@ def roll
   # code goes here
   
   rand (1...6)
-  Array.new(6) (rand(6) )
+  Array.new(6) (rand(1..6) )
 end
